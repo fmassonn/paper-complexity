@@ -27,7 +27,7 @@ diag = "sivol" # siextent, sivol or siarea
 domain = "Arctic" # Domain under consideration 
 dirin = "./netcdfs/"   # where the pre-processed NetCDF data of volume and area are
 
-month = 3 # Month to plot (Standard convention): September = 9
+month = 3 # Month to plot (Standard, not Pythonic, convention): September = 9
 
 colors_complexity = ["#c7e9c0", "#74c476", "#31a354", [0.0, 0.2, 0.08]]  # For plotting model complexity as color
 complexity_names  = ["Very simple", "Simple", "Intermediate", "Complex"]
